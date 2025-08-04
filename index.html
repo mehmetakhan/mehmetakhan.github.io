@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mehmet Akhan</title>
   <meta name="description" content="Resmi web sitesi - Mehmet Akhan" />
+
+  <!-- Doğrulama linkleri -->
   <link rel="me" href="https://sosyal.teknofest.app/@mehmetakhan" />
   <link rel="me" href="https://mastodon.social/@mehmetakhan" />
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -18,47 +21,29 @@
       justify-content: center;
       height: 100vh;
     }
-
     .card {
       background-color: white;
       border-radius: 10px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       padding: 2rem;
       text-align: center;
-      max-width: 400px;
+      max-width: 500px;
     }
-
-    h1 {
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      margin: 0.3rem 0;
-    }
-
-    .social-links {
-      margin-top: 1.5rem;
-    }
-
-    .social-links a {
-      display: flex;
-      align-items: center;
-      justify-content: start;
-      margin: 0.5rem 0;
+    h1 { margin-bottom: .5rem; }
+    p { margin: .3rem 0; }
+    a {
       color: #007acc;
       text-decoration: none;
-      font-size: 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
     }
-
-    .social-links a img {
-      width: 24px;
-      height: 24px;
-      margin-right: 8px;
-      border-radius: 4px;
-    }
-
-    .social-links a:hover {
-      text-decoration: underline;
+    a:hover { text-decoration: underline; }
+    .icon {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      vertical-align: middle;
     }
   </style>
 </head>
@@ -69,20 +54,25 @@
     <p>🧠 Tech | 🔬 Science | 💡 Innovation | 🎭 Culture</p>
     <p>💰 #Cryptocurrency | 📈 #Investor | 💹 #Trader</p>
 
-    <div class="social-links">
-      <a rel="me" href="https://sosyal.teknofest.app/@mehmetakhan" target="_blank">
-        <img src="next-sosyal.png" alt="Next Sosyal" />
-        Next Sosyal
-      </a>
-      <a rel="me" href="https://mastodon.social/@mehmetakhan" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Mastodon_Logotype_%28Simple%29.svg" alt="Mastodon" />
-        Mastodon
-      </a>
+    <p>
       <a href="https://x.com/mehmetakhan" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/X_logo_2023.svg" alt="X" />
+        <img class="icon" src="https://cdn.simpleicons.org/x" alt="X (Twitter)" />
         X (Twitter)
       </a>
-    </div>
+    </p>
+    <p>
+      <a href="https://sosyal.teknofest.app/@mehmetakhan" rel="me" target="_blank">
+        <img class="icon" src="https://img.benguturk.com/2025/07/next_teknofest_social_logo.png" alt="Next Sosyal" />
+        Next Sosyal
+      </a>
+    </p>
+    <p>
+      <a href="https://mastodon.social/@mehmetakhan" rel="me" target="_blank">
+        <img class="icon" src="https://cdn.simpleicons.org/mastodon" alt="Mastodon" />
+        Mastodon
+      </a>
+    </p>
   </div>
 </body>
 </html>
+
