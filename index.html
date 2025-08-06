@@ -1,81 +1,94 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Mehmet Akhan | Mikro Bio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehmet Akhan</title>
+  <meta name="description" content="Resmi web sitesi - Mehmet Akhan" />
+
+  <!-- Doğrulama linkleri -->
+  <link rel="me" href="https://sosyal.teknofest.app/@mehmetakhan" />
+  <link rel="me" href="https://mastodon.social/@mehmetakhan" />
+
   <style>
     body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #f4f4f4;
-      color: #222;
+      padding: 0;
       display: flex;
-      flex-direction: column;
       align-items: center;
-      padding: 2rem 1rem;
+      justify-content: center;
+      height: 100vh;
     }
-
-    .container {
-      max-width: 600px;
-      width: 100%;
-      background: white;
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       padding: 2rem;
-      border-radius: 1rem;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
       text-align: center;
+      max-width: 500px;
     }
-
-    h1 {
-      margin-top: 0;
-      font-size: 2rem;
+    h1 { margin-bottom: .5rem; }
+    p { margin: .3rem 0; }
+    .social-link {
+      margin-top: 1rem;
     }
-
-    p {
-      margin: 0.5rem 0;
-    }
-
-    .links a {
-      display: inline-block;
-      margin: 0.5rem;
-      padding: 0.6rem 1.2rem;
+    a {
+      color: #007acc;
       text-decoration: none;
-      color: white;
-      background: #333;
-      border-radius: 2rem;
-      transition: background 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
     }
-
-    .links a:hover {
-      background: #555;
-    }
-
-    footer {
-      margin-top: 2rem;
-      font-size: 0.85rem;
-      color: #888;
+    a:hover { text-decoration: underline; }
+    .icon {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      vertical-align: middle;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="card">
     <h1>Mehmet Akhan</h1>
-    
     <p>🏡 Real Estate Consultant</p>
     <p>🧠 Tech | 🔬 Science | 💡 Innovation | 🎭 Culture</p>
     <p>💰 #Cryptocurrency | 📈 #Investor | 💹 #Trader</p>
 
-    <div class="links">
-      <a href="https://x.com/mehmetakhan" rel="me" target="_blank">Twitter</a>
-      <a href="https://github.com/mehmetakhan" rel="me" target="_blank">GitHub</a>
-      <a href="https://www.instagram.com/mehmetakhan/" rel="me" target="_blank">Instagram</a>
-      <a href="https://medium.com/@mehmetakhan" rel="me" target="_blank">Medium</a>
+    <div class="social-link">
+      <p>
+        <a href="https://x.com/mehmetakhan" target="_blank">
+          <img class="icon" src="https://cdn.simpleicons.org/x" alt="X (Twitter)" />
+          X (Twitter)
+        </a>
+      </p>
+      <p>
+        <a href="https://sosyal.teknofest.app/@mehmetakhan" rel="me" target="_blank">
+          <img class="icon" src="https://www.koydenhaber.com/images/haberler/2025/07/yerli-sosyal-medya-platformu-next-teknofest-sosyal-yarim-milyon-kullaniciya-ulasarak-zirveye-mi-tirmaniyor-4187.png" alt="Next Sosyal" />
+          Next Sosyal
+        </a>
+      </p>
+      <p>
+        <a href="https://mastodon.social/@mehmetakhan" rel="me" target="_blank">
+          <img class="icon" src="https://cdn.simpleicons.org/mastodon" alt="Mastodon" />
+          Mastodon
+        </a>
+      </p>
+      <p>
+        <a href="https://www.instagram.com/mehmetakhan/" target="_blank">
+          <img class="icon" src="https://cdn.simpleicons.org/instagram" alt="Instagram" />
+          Instagram
+        </a>
+      </p>
+      <p>
+        <a href="https://medium.com/@mehmetakhan" target="_blank">
+          <img class="icon" src="https://cdn.simpleicons.org/medium" alt="Medium" />
+          Medium
+        </a>
+      </p>
     </div>
   </div>
-
-  <footer>
-    © 2025 Mehmet Akhan
-  </footer>
 </body>
 </html>
-
